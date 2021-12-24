@@ -1,0 +1,19 @@
+.header{
+    color:red;
+}
+
+.text{
+    text-decoration: underline;
+}
+
+.wrapper{
+    max-width: auto;
+    margin: auto;
+    padding: 0 7.5%;
+}
+
+@media screen and (max-width: 1920px) {
+    .wrapper{
+        padding: 0px;
+    }
+}

@@ -1,0 +1,128 @@
+.container {
+  /* text-decoration: none; */
+  display: grid;
+  grid-template-columns: 1fr 1200px 1fr;
+}
+.wrapper {
+  grid-column-start: 2;
+  align-self: center;
+  justify-self: center;
+}
+
+.wrapper__content{
+  padding-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr  1fr;
+}
+@keyframes img-animation {
+  from{
+    opacity: 1;
+    transform: translateX(200px);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+.home__title {
+  font-size: 48px;
+  padding-top: 100px;
+  color: white;
+  border-bottom: 3px solid;
+}
+
+.content {
+  grid-column-start: 2;
+  grid-row-start: 2;
+  padding-top: 50px;
+  
+}
+.content__about {
+  display: grid;
+  padding-top: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-size: 24px;
+  color: white;
+}
+
+.content__text{
+  color: white;
+  line-height: 1.5;
+  font-size: 24px;
+  animation-name: textSlid;
+  animation-duration: 2s;
+}
+
+.content__img1{
+  grid-column-start: 2;
+  align-self: center;
+  justify-self: center;
+  width: 30%; 
+  height: 80%;
+  /* opacity: 0; */
+  animation-name: img-animation;
+  animation-duration: 1s;
+  /* animation-delay: 2s; */
+  /* border: 1px solid black; */
+}
+.content__text__title{
+  font-size:44px;
+  color: #Eed3d5;
+}
+.content__text2{
+  line-height: 1.9;
+  color: #F19196;
+  align-self: center;
+  justify-self: center;
+  font-size: 20px;
+  width: 600px; 
+  height: 300px;
+  animation-name: text2-animation;
+  animation-duration: 1s;
+}
+
+.content__text3{
+  line-height: 1.9;
+  color: #F19196;
+  align-self: center;
+  justify-self: center;
+  font-size: 20px;
+  width: 600px; 
+  height: 300px;
+}
+
+@keyframes text2-animation {
+  from{
+    opacity: 1;
+    transform: translateX(-200px);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+
+.content__img2{
+  grid-column-start: 2;
+  grid-row-start: 2;
+  align-self: center;
+  justify-self: center;
+  width: 30%; 
+  height: 80%;
+  /* opacity: 0; */
+  animation-name: img-animation;
+  animation-duration: 1s;
+}
+
+@keyframes textSlid {
+  from {
+    opacity: 0%;
+    left: -50%;
+  }
+  to{
+    opacity: 100%;
+    left: 0;
+  }
+  
+}
