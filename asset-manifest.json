@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-manga-world/static/css/main.eb1a8e8e.chunk.css",
+    "main.js": "/react-manga-world/static/js/main.8501bd64.chunk.js",
+    "main.js.map": "/react-manga-world/static/js/main.8501bd64.chunk.js.map",
+    "runtime-main.js": "/react-manga-world/static/js/runtime-main.512e02a6.js",
+    "runtime-main.js.map": "/react-manga-world/static/js/runtime-main.512e02a6.js.map",
+    "static/css/2.7fc9bc2b.chunk.css": "/react-manga-world/static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.05fb57e1.chunk.js": "/react-manga-world/static/js/2.05fb57e1.chunk.js",
+    "static/js/2.05fb57e1.chunk.js.map": "/react-manga-world/static/js/2.05fb57e1.chunk.js.map",
+    "index.html": "/react-manga-world/index.html",
+    "static/css/2.7fc9bc2b.chunk.css.map": "/react-manga-world/static/css/2.7fc9bc2b.chunk.css.map",
+    "static/css/main.eb1a8e8e.chunk.css.map": "/react-manga-world/static/css/main.eb1a8e8e.chunk.css.map",
+    "static/js/2.05fb57e1.chunk.js.LICENSE.txt": "/react-manga-world/static/js/2.05fb57e1.chunk.js.LICENSE.txt",
+    "static/media/anime_404.a7b494f4.gif": "/react-manga-world/static/media/anime_404.a7b494f4.gif",
+    "static/media/pngegg.86be2b05.png": "/react-manga-world/static/media/pngegg.86be2b05.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.512e02a6.js",
+    "static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.05fb57e1.chunk.js",
+    "static/css/main.eb1a8e8e.chunk.css",
+    "static/js/main.8501bd64.chunk.js"
+  ]
+}
