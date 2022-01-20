@@ -2,7 +2,7 @@
   "name": "react-anime-world",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://g0pn1k.github.io/react-manga-world/",
+  "homepage": "https://g0pn1k.github.io/react-web-anime-world/",
   "dependencies": {
     "aos": "^2.3.4",
     "classnames": "^2.3.1",
